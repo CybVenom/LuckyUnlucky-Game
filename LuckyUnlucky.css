@@ -1,0 +1,145 @@
+body {
+    background-color: lime;
+    padding: 0px;
+    margin: 0px;
+    color: darkblue;
+}
+
+.float-left {
+    float: left;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    text-align: center;
+}
+
+.player-1 {
+    width: 40%;
+    height: 550px;
+    text-align: center;
+    font-size: 32px;
+    background-color: cornflowerblue;
+}
+
+.player-2 {
+    width: 40%;
+    height: 550px;
+    text-align: center;
+    font-size: 32px;
+    background-color: cornflowerblue;
+}
+
+.border {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 30px 30px;
+    border-radius: 5px;
+}
+
+.total-1, .total-2 {
+    font-style: normal;
+}
+
+.amt-remaining {
+    font-size: 2vw;
+    margin: 60px 10px;
+    text-align: left;
+}
+
+.amt-remaining .borders-1, .borders-2 {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color : lightgrey;
+    color: red;
+    font-weight: bolder;
+}
+
+.images-1, .images-2 {
+    height: 120px;
+    width: 120px;
+    border-image: 1px solid gray;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.bottom {
+    top: 400px;
+}
+
+.middle {
+    top: 200px;
+}
+
+.top {
+    top: 50px;
+}
+
+.reset-luck {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+/* for switching sides */
+.active {
+    font-weight: bolder;
+    outline: 5px solid white;
+    background-color: blueviolet;
+}
+
+/* for winner */
+.winner {
+    background-color: lime;
+    color: whitesmoke;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.winner .amt-remaining {
+    color: rgb(246, 248, 246);
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.looser {
+    background-color: rgb(241, 31, 41);
+    color: rgb(246, 248, 246);
+    font-weight: 900;
+    font-style: italic;
+}
+
+.looser .amt-remaining {
+    color: rgb(246, 248, 246);
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-size: large;
+}
+
+
+
+
+
+
+/* responsive */
+@media screen {
+    
+}
