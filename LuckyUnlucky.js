@@ -161,3 +161,5 @@ BTN_TRY_LUCK.addEventListener("click",tryLuck);
 
 //adding functionality at reset your luck button
 BTN_RESET_LUCK.addEventListener("click",resetLuck);
+
+//just a comment
